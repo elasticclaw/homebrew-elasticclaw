@@ -1,17 +1,17 @@
 class Elasticclaw < Formula
   desc "Provision and manage AI agent claws from the command line"
   homepage "https://github.com/elasticclaw/elasticclaw"
-  version "0.0.40"
+  version "0.0.41"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/elasticclaw/elasticclaw/releases/download/v#{version}/elasticclaw-darwin-arm64"
-      sha256 "8542e452aad823a12b5fca7b51fcc9923c195bb3911ae6222d9e0d3af982ffc3"
+      sha256 "cda99b33bc56b75c33d3cf4f556d1a7cb64c0dda3e3d5de67ab39a5b59323934"
     end
     on_intel do
       url "https://github.com/elasticclaw/elasticclaw/releases/download/v#{version}/elasticclaw-darwin-amd64"
-      sha256 "9b8f96112606ee6d387bd4cd32ae9ab5822121ae2d4a951f633bd5d232998084"
+      sha256 "788da4b9a75a99c82ee3b53fba79f3ae63c853ca4121a79ab59546565e92c236"
     end
   end
 
