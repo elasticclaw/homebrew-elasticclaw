@@ -6,12 +6,12 @@ class Elasticclaw < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/elasticclaw/elasticclaw/releases/download/v#{version}/elasticclaw-darwin-arm64"
-      sha256 "102033ba5011a2d0f86ce542798fcc77e18754029c318ea17f9237e0f4f7902e"
+      url "https://github.com/elasticclaw/elasticclaw/releases/download/#{version}/elasticclaw-darwin-arm64"
+      sha256 "58b0abe492c22bc487272ab842faf67969cc5b7a85edf5aaa48f449c88ecdc2d"
     end
     on_intel do
-      url "https://github.com/elasticclaw/elasticclaw/releases/download/v#{version}/elasticclaw-darwin-amd64"
-      sha256 "cd1e7217e93184d5159f36b4b58ba47f6f8aa9e291c6309d6e7e21104df8f04d"
+      url "https://github.com/elasticclaw/elasticclaw/releases/download/#{version}/elasticclaw-darwin-amd64"
+      sha256 "4ddf8e497db91b04355312099595ea9a33f06702b9f3afd12ba57d36997c9224"
     end
   end
 
