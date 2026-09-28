@@ -1,28 +1,28 @@
 class ElasticclawBeta < Formula
   desc "Provision and manage AI agent claws from the command line"
   homepage "https://github.com/elasticclaw/elasticclaw"
-  version "2026.9.28-beta.1"
+  version "2026.9.28-beta.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/elasticclaw/elasticclaw/releases/download/#{version}/elasticclaw-darwin-arm64"
-      sha256 "8058e6606bed0f08d5a87c60cf5b1ef2d087d377557c06b66d7ff2d620e32332"
+      sha256 "2862312d14d360409dfc309e14e4d7e7ca31e4845b1505cbd93d0c4a4b6ce8fe"
     end
     on_intel do
       url "https://github.com/elasticclaw/elasticclaw/releases/download/#{version}/elasticclaw-darwin-amd64"
-      sha256 "0361df3a3dc8a6d68b1e6633d0ab8561c37e3d01d3190fbeb67f2b6432e7eee5"
+      sha256 "70012f38840e00813d019303a526fdfb22b551977ff216aa752875eb9a19fd1d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/elasticclaw/elasticclaw/releases/download/#{version}/elasticclaw-linux-arm64"
-      sha256 "ccc6e8191440192a1d8f0ca71fbe3bbb11bb2dc2b969c9414ab556ce3f0284be"
+      sha256 "a36e21a844cfed06a0f26ea0ec8d63e58ba1d065ae52ae241225a80ac3a0e9b1"
     end
     on_intel do
       url "https://github.com/elasticclaw/elasticclaw/releases/download/#{version}/elasticclaw-linux-amd64"
-      sha256 "ae1c3400cb058f6285b82018b581e34888480e8e8ab9aa652f3d873df0fb9547"
+      sha256 "a289a9268a2a5ad2ec23e109cf9c01137bcb527b4008892fe3a08459d7b72169"
     end
   end
 
